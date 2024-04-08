@@ -1,0 +1,21 @@
+%heading {
+   font-weight: 400;
+}
+
+.heading-2 {
+    @extend %heading;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.heading-3 {
+    @extend %heading;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.heading-4 {
+    @extend %heading;
+    font-size: 1.9rem;
+}
